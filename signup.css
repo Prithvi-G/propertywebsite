@@ -1,0 +1,59 @@
+body {  
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 30px;
+    background-image:url("images/signup1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    color: black;
+    }   
+    /* Following container class used padding for generate space around it, and also use a background-color for specify the color lightblue as a background */    
+    .container {  
+    padding: 50px;  
+    background-color:rgb(0,0,0) ;
+    opacity: 0.8;
+    width: 600px;
+    color: aliceblue ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+    }  
+    /* The following tag selector input use the different properties for the text filed. */  
+    .word{
+        margin-left: 150px;
+    }
+    input[type=text] {  
+        
+      padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+     border: none;  
+     background: papayawhip;  
+    
+    }  
+
+    input[type=text]:focus {  
+    background-color: peachpuff;  
+    outline: none;  
+    }  
+     div {  
+                padding: 10px 0;  
+    }       
+    /* The following tag selector button uses the different properties for the Button. */  
+    button {  
+      background-color: #4CAF50;  
+      color: white;  
+      margin: 8px 0;  
+      border: none;  
+      cursor: pointer;  
+      padding: 16px 20px;  
+      width: 50%;  
+      opacity: 0.9;  
+      margin-left: 150px;
+    }  
+    /* The following tag selector hover uses the opacity property for the Button which select button when you mouse over it. */  
+    button:hover {  
+    opacity: 1;  
+    }  
+ 

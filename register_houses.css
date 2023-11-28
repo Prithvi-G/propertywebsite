@@ -1,0 +1,125 @@
+/*navigation*/
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    width:100%;
+    display: inline-flex;
+}
+.topnav a{
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    color:#f2f2f2;
+    text-align: right;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}   
+.topnav a:hover{
+    background-color: #ddd;
+    color:black
+}
+.topnav a.active{
+    background-color: #04AA6D;
+    color:white;
+}
+
+#name{
+    font-family:'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: 20px;
+    float:right;
+    text-align: right;
+    padding:14px 16px;
+    text-decoration: none;
+    padding-right: 1000px;
+}
+/*Rest of webpage*/
+.rest {
+    width:1500px;
+    background-size:cover;
+    
+    background-repeat:no-repeat;
+    height:700px;
+}
+
+.transparent_part{
+    height:700px;
+    width:750px;
+    float:right;
+    background-color: rgba(0,0,0,0.8);
+}
+body{
+    background-color:papayawhip;
+}
+.content{
+    height:700px;
+    width:360px;
+    float:right;
+    font-size: 30px;
+    color:white;
+    padding-left: 15px;
+    padding-top:10px;
+}
+
+.enter_info{
+    height:700px;
+    width:360px;
+    float:right;
+    font-size: 30px;
+    color:white;
+    padding-left: 15px;
+    padding-top:10px;
+}
+.box{
+    font-size:22px;
+    width:300px;
+    height:30px;
+}
+#house1{
+    background-image:url("images/house1.jpg");
+}
+#house2{
+    background-image:url("images/house2.jpg");
+}
+#house3{
+    background-image:url("images/house3.jpg");
+}
+#house4{
+    background-image:url("images/house4.jpg");
+}
+#house5{
+    background-image:url("images/house5.webp");
+}
+#house6{
+    background-image:url("images/house6.jpg");
+}
+#house7{
+    background-image:url("images/house7.webp");
+}
+#house8{
+    background-image:url("images/house8.jpg");
+}
+#rent1{
+    background-image:url("images/rent1.jpg");
+}
+#rent2{
+    background-image:url("images/rent2.jpg");
+}
+#rent3{
+    background-image:url("images/rent3.jpg");
+}
+#rent4{
+    background-image:url("images/rent4.jpg");
+}
+#rent5{
+    background-image:url("images/rent5.jpg");
+}
+#rent6{
+    background-image:url("images/rent6.jpg");
+}
+#rent7{
+    background-image:url("images/rent7.jpg");
+}
+#rent8{
+    background-image:url("images/rent8.jpg");
+}

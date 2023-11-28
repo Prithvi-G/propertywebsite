@@ -1,0 +1,148 @@
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    width:100%;
+    display: inline-flex;
+}
+.topnav a{
+    float:right;
+    color:#f2f2f2;
+    text-align: right;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}   
+.topnav a:hover{
+    background-color: #ddd;
+    color:black
+}
+.topnav a.active{
+    background-color: #04AA6D;
+    color:white;
+}
+#name{
+    color: bisque;
+    font-size: 20px;
+    float:right;
+    text-align: right;
+    padding:14px 16px;
+    text-decoration: none;
+    padding-right: 1000px;
+}
+
+body{
+    background-color:bisque;
+}
+#big1{
+    background:url("images/head_bg.jpg") no-repeat scroll left ;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:100%;
+}
+#big{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 400%;
+    text-align:center;
+    height:200px;
+    background-color: rgba(0,0,0,0.5);
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.housepics{
+    height:200px;
+    width:330px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
+}
+#house1{
+    background-image:url("images/house1.jpg");
+}
+#house2{
+    background-image:url("images/house2.jpg");
+}
+#house3{
+    background-image:url("images/house3.jpg");
+}
+#house4{
+    background-image:url("images/house4.jpg");
+}
+#house5{
+    background-image:url("images/house5.webp");
+}
+#house6{
+    background-image:url("images/house6.jpg");
+}
+#house7{
+    background-image:url("images/house7.webp");
+}
+#house8{
+    background-image:url("images/house8.jpg");
+}
+#rent1{
+    background-image:url("images/rent1.jpg");
+}
+#rent2{
+    background-image:url("images/rent2.jpg");
+}
+#rent3{
+    background-image:url("images/rent3.jpg");
+}
+#rent4{
+    background-image:url("images/rent4.jpg");
+}
+#rent5{
+    background-image:url("images/rent5.jpg");
+}
+#rent6{
+    background-image:url("images/rent6.jpg");
+}
+#rent7{
+    background-image:url("images/rent7.jpg");
+}
+#rent8{
+    background-image:url("images/rent8.jpg");
+}
+
+.content{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+ }
+.panels {
+    float:left;
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #000; 
+    padding: 0px; 
+    padding-right: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin: 20px ;
+    border-radius: 10px; 
+  }
+  .panels a:link{
+    color:inherit;
+    text-decoration:none;
+  }
+  .bottom {
+    margin-top: 700px;
+    background-color:rgba(0,0,0,1);
+    height: 300px;
+}
+.bottomtext{
+    padding-left:10px;
+    padding-top:10px;
+    color:bisque;
+    font-size:25px;
+}
+.bottomtext a:link{
+    color:inherit;
+    text-decoration:none;
+  }

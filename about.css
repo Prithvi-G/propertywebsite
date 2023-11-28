@@ -1,0 +1,38 @@
+/*navigation*/
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    width:100%;
+    display: inline-flex;
+}
+.topnav a{
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    color:#f2f2f2;
+    text-align: right;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}   
+.topnav a:hover{
+    background-color: #ddd;
+    color:black
+}
+.topnav a.active{
+    background-color: #04AA6D;
+    color:white;
+}
+
+#name{
+    font-family:'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: 20px;
+    float:right;
+    text-align: right;
+    padding:14px 16px;
+    text-decoration: none;
+    padding-right: 1000px;
+}
+
+
+/*Prithvi*/
